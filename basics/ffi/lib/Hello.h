@@ -7,6 +7,10 @@ extern "C" {
 
 void print_hello();
 
+int add_one(int n);
+
+void sort(int* nums, int n);
+
 #ifdef __cplusplus
 };
 #endif
